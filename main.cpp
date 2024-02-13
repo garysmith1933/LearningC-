@@ -1,8 +1,12 @@
 #include <iostream>
 int main() {
-  int file_size = 0;
-  double sales = 9.99;
+  int a = 1;
+  int b = 2;
+
+  int temp = b;
+  b = a;
+  a = temp;
   // equivalent to print in python, console.log, system.out.print
-  std::cout << file_size;
+  std::cout << b;
   return 0;
 }
