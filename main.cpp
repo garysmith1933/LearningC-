@@ -4,11 +4,16 @@ int main() {
   int b = 2;
 
   int temp = b;
-  b = a;
-  a = temp;
   // equivalent to print in python, console.log, system.out.print
   //<<std::endl is used to print on another line
-  std::cout << b << std::endl;
-  std::cout << a << std::endl;
+  std::cout << "a = " << a << std::endl;
+  std::cout << "b = " << b << std::endl;
+
+  b = a;
+  a = temp;
+
+  // << output stream
+  std::cout << "a = " << a << std::endl;
+  std::cout << "b = " << b << std::endl;
   return 0;
 }
