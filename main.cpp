@@ -20,19 +20,28 @@ using namespace std;
 //   return 0;
 // }
 
+// int main() {
+//   double sales = 95000;
+
+//   float state_tax = sales * 0.04;
+//   float county_tax = sales * 0.02;
+
+//   cout << "Current price is $" << sales << endl;
+
+//   cout << "With sales tax $" << sales + state_tax << endl;
+//   cout << "With county tax $" << sales + county_tax << endl;
+
+//   float sales_total = sales + state_tax + county_tax;
+
+//   cout << "Total price is $" << sales_total;
+//   return 0;
+// }
+
 int main() {
-  double sales = 95000;
-
-  float state_tax = sales * 0.04;
-  float county_tax = sales * 0.02;
-
-  cout << "Current price is $" << sales << endl;
-
-  cout << "With sales tax $" << sales + state_tax << endl;
-  cout << "With county tax $" << sales + county_tax << endl;
-
-  float sales_total = sales + state_tax + county_tax;
-
-  cout << "Total price is $" << sales_total;
+  cout << "enter current temperature: ";
+  int temperature;
+  cin >> temperature;
+  int celcuis = (temperature - 32) / 1.8;
+  cout << "Its " << celcuis << " Degrees Celcuis";
   return 0;
 }
